@@ -1,0 +1,33 @@
+{
+  "name": "codebase-documenter",
+  "version": "0.1.0",
+  "description": "Automatically generate accurate, up-to-date documentation from your codebase using small local LLMs",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "codebase-documenter": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/index.js",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "documentation",
+    "codebase",
+    "llm",
+    "local-models",
+    "ai"
+  ],
+  "author": "Jonathan Kaschak",
+  "license": "MIT"
+}
